@@ -1,5 +1,5 @@
 ion-menu ion-content {
-  --background: var(--ion-item-background, var(--ion-background-color, #fff));
+  --background: #2b2d36;
 }
 
 ion-menu.md ion-content {
@@ -11,6 +11,16 @@ ion-menu.md ion-content {
 
 ion-menu.md ion-list {
   padding: 20px 0;
+  background-color: transparent;
+}
+
+ion-menu {
+  .logo{
+    text-align: center;
+  }
+  ion-img{
+    width: 80%;
+  }
 }
 
 ion-menu.md ion-note {

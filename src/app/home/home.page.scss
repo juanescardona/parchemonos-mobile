@@ -1,0 +1,18 @@
+ion-thumbnail{
+    width: 120px;
+    height: 120px;
+}
+
+ion-list{
+    a {
+        text-decoration: none;
+    }
+}
+
+.score-preview{
+    display: flex;
+    align-items: center;;
+    div {
+        margin-left: 10px;
+    }
+}
